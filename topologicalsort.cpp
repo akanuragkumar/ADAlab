@@ -94,4 +94,3 @@ int main()
  
     return 0;
 }
-Run on IDE
