@@ -1,2 +1,2 @@
 # ADAlab
-contains the programs for ADA lab
+Contains the programs for ADA lab
