@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 int w[10],p[10],v[10][10],n,i,j,cap,x[10]= {0};
 int max(int i,int j) {
 	return ((i>j)?i:j);
@@ -16,7 +16,7 @@ int knap(int i,int j) {
 }
 void main() {
 	int profit,count=0;
-	clrscr();
+	
 	printf("\nEnter the number of elements\n");
 	scanf("%d",&n);
 	printf("Enter the profit and weights of the elements\n");
@@ -48,5 +48,5 @@ void main() {
 	  if(x[i])
 	   printf("%d\t%d\t%d\n",++count,w[i],p[i]);
 	printf("Total profit = %d\n",profit);
-	getch();
+	
 }
