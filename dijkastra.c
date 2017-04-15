@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 #define INFINITY 9999
 #define MAX 10
  
@@ -7,7 +7,7 @@ void dijikstra(int G[MAX][MAX], int n, int startnode);
  
 void main(){
 	int G[MAX][MAX], i, j, n, u;
-	clrscr();
+	
 	printf("\nEnter the no. of vertices:: ");
 	scanf("%d", &n);
 	printf("\nEnter the adjacency matrix::\n");
@@ -17,7 +17,7 @@ void main(){
 	printf("\nEnter the starting node:: ");
 	scanf("%d", &u);
 	dijikstra(G,n,u);
-	getch();
+	
 }
  
 void dijikstra(int G[MAX][MAX], int n, int startnode)
